@@ -11,11 +11,11 @@ function displayQuotes(quotes) {
 
         let quotation = document.createElement("p");
         quotation.setAttribute("class", "quotePara");
-        quotation.textContent = '"' + quote.quoteContent + '"';
+        quotation.textContent = `"${quote.quoteContent}"`;
         
         let author = document.createElement("div");
         author.setAttribute("class", "quoteAuthor");
-        author.textContent = '- ' + quote.author;
+        author.textContent = `- ${quote.author}`;
         
         // append diffirent element as children
         article.appendChild(quotation);
