@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+article {
+    margin: 15px;
+    border: 1px solid balck;
+    padding: 15px;
+    display: grid;
+    align-items: center;
+}
+
+#quotesDisplay {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    margin-top: 20px;
+    justify-items: center;
+    width: 100%;
+}
+
+.quotePara {
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.quoteAuthor {
+    text-align: right;
+    margin-top: 30px;
+    font-weight: 400;
+    color:whitesmoke
+
+}
