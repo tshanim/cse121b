@@ -59,6 +59,16 @@ nav ul li a:hover {
     background-color: #efefef;
     color: black;
 }
+header {
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 h1,
 h2 {
